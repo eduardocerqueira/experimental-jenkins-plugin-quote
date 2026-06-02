@@ -40,7 +40,7 @@ public class RandomQuoteBuilder extends Builder {
     }
 
     private static void loadQuotes() {
-        InputStream is = RandomQuoteBuilder.class.getResourceAsStream("/quotes.txt");
+        InputStream is = RandomQuoteBuilder.class.getResourceAsStream("quotes.txt");
         if (is != null) {
             try (Scanner scanner = new Scanner(is, "UTF-8")) {
                 while (scanner.hasNextLine()) {
