@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.jenkins-ci.plugins</groupId>
+    <artifactId>plugin</artifactId>
+    <version>4.51</version>
+    <relativePath />
+  </parent>
+  <groupId>io.github.eduardocerqueira</groupId>
+  <artifactId>random-quote</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>hpi</packaging>
+  <name>Random Quote Plugin</name>
+  <description>Jenkins build step that prints a random motivational quote themed around AI, Vibe Coding, Agentic, AI Providers, Inference, AI Models.</description>
+  <url>https://github.com/eduardocerqueira/experimental-jenkins-plugin-quote</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <properties>
+    <jenkins.version>2.346.3</jenkins.version>
+    <java.level>8</java.level>
+  </properties>
+  <repositories>
+    <repository>
+      <id>jenkins-public</id>
+      <url>https://repo.jenkins-ci.org/public</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>jenkins-public</id>
+      <url>https://repo.jenkins-ci.org/public</url>
+    </pluginRepository>
+  </pluginRepositories>
+</project>
