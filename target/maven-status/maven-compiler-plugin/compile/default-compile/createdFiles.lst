@@ -1,0 +1,5 @@
+META-INF/annotations/hudson.Extension.txt
+io/jenkins/plugins/quote/RandomQuoteBuilder.stapler
+io/jenkins/plugins/quote/RandomQuoteBuilder$DescriptorImpl.class
+io/jenkins/plugins/quote/RandomQuoteBuilder.class
+META-INF/annotations/hudson.Extension

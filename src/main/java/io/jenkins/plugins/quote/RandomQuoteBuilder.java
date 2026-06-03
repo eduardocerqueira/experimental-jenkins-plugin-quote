@@ -62,7 +62,7 @@ public class RandomQuoteBuilder extends Builder {
         }
 
         @Override
-        public boolean isApplicable(Class<? extends AbstractBuild> jobType) {
+        public boolean isApplicable(Class<? extends AbstractProject> jobType) {
             return true;
         }
     }
