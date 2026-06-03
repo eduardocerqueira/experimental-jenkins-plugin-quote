@@ -3,6 +3,7 @@ package io.jenkins.plugins.quote;
 import hudson.Extension;
 import hudson.Launcher;
 import hudson.model.AbstractBuild;
+import hudson.model.AbstractProject;
 import hudson.model.BuildListener;
 import hudson.tasks.Builder;
 import hudson.tasks.BuildStepDescriptor;
